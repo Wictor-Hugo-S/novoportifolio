@@ -1,0 +1,141 @@
+$colors: (
+  primary: #3eff3b,
+  secondary: orange,
+
+
+);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&family=Roboto:wght@300&display=swap');
+
+
+
+
+
+$font-styles: (
+  small: (font-family: Verdana,
+    font-size: 15px,
+
+    font-weight: bold),
+  medium: (font-family: 'Roboto',
+    font-size: 17px,
+
+  ),
+  large: (font-size: 45px,
+    font-weight: bold,
+    font-family: Helvetica,
+
+  )
+);
+
+
+
+h1 {
+  font-family: map-get(map-get($font-styles, large), font-family);
+  font-size: map-get(map-get($font-styles, large), font-size);
+
+}
+
+span {
+  font-family: map-get(map-get($font-styles, medium), font-family);
+  font-size: map-get(map-get($font-styles, medium), font-size);
+
+}
+
+p {
+
+  font-family: map-get(map-get($font-styles, small), font-family);
+  font-size: map-get(map-get($font-styles, small), font-size);
+  font-weight: map-get(map-get($font-styles, small), font-weight);
+
+
+}
+
+li{
+  font-family: map-get(map-get($font-styles, medium), font-family) !important;
+  font-size: 18px;
+
+}
+
+.links a:hover,
+.icons-menu:hover,
+.icons-itens-footer:hover,
+.email a:hover,
+.desenvolvido p:hover
+{
+  color: map-get($colors, secondary) !important;
+  transition: ease-in-out .4s;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+.buttons-projetos a:hover {
+  color: orange !important;
+  transition: ease-in-out .4s;
+
+}
+
+.border-bottom{
+
+  width: 100%;
+  border: 1px solid;
+  margin-bottom: 30px;
+  max-width: 1200px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 100%;
+
+  height: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+  .container-margin{
+    margin-top: 80px;
+  }
+
+
+
+}
+
+
+
+@media screen and (max-width: 468px){
+ .title-sobre{
+  h1{
+    font-size: 35px ;
+  }
+
+ }
+
+
+
+}
+
+
+

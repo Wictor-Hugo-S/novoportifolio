@@ -1,0 +1,53 @@
+
+
+
+$colors-light-theme: (
+  primary: #a700aa,
+  secondary: white,
+  backgroundFundo:white,
+  backgroundFundoBoxe:#ac01ae,
+  colorText:black,
+  backgroundFundoBoxe2:#5f0060,
+  backgroundFundoPage1:rgb(245, 245, 244),
+  backgroundFundoPage2:rgb(228, 228, 228)
+  
+);
+
+
+
+.light-theme{
+
+  color: map-get($colors-light-theme, primary); 
+}
+
+.light-theme-background-fundo{
+
+  background-color: map-get($colors-light-theme, backgroundFundo); 
+
+}
+
+
+.light-theme-boxes{
+
+  
+
+  background:linear-gradient(to bottom, map-get($colors-light-theme, backgroundFundoBoxe),map-get($colors-light-theme, backgroundFundoBoxe2) );
+
+}
+
+// .hover-light-theme:hover{
+
+//   color: map-get($colors-light-theme, primary); 
+  
+
+// }
+
+.backgroundFundoPage-theme-light{
+
+  background:linear-gradient(to bottom, map-get($colors-light-theme, backgroundFundoPage1),map-get($colors-light-theme, backgroundFundoPage2) );
+
+}
+
+.texto-light{
+  color: map-get($colors-light-theme, colorText);
+}

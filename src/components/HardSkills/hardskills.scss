@@ -1,0 +1,109 @@
+@import '../../estilosperosnalizados/rootstyles.scss';
+
+main.hard-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+    .container-hard-skills {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px 0;
+
+
+        .title-hard-skills {
+
+            span{
+                font-size: 26px;
+                font-family: Verdana;
+            }
+
+
+        }
+
+        .icons-hard-skills {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px 15px;
+            margin-top: 30px;
+
+            flex-wrap: wrap;
+            flex-basis: 10%;
+
+
+            .wrapper-icons {
+                width: calc(23.3% - 30px);
+                font-size: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+    main.hard-skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+
+        .container-hard-skills {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px 0;
+
+
+            .title-hard-skills {
+                text-align: center;
+                padding: 0 2%;
+                font-family: Verdana;
+                font-size: 30px;
+
+
+                h1 {
+                    margin-bottom: 30px;
+                    padding: 0 2%;
+                }
+            }
+
+            .icons-hard-skills {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px 0px;
+                margin-top: 30px;
+
+                flex-wrap: wrap;
+                flex-basis: 10%;
+
+
+                .wrapper-icons {
+                    width: calc(45.3% - 30px);
+                    font-size: 100px;
+
+
+                }
+            }
+
+        }
+    }
+
+
+}

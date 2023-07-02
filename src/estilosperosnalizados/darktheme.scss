@@ -1,0 +1,52 @@
+
+
+
+
+$colors-dark-theme: (
+  primary: #3eff3b,
+  secondary: orange,
+  backgroundFundo:#0c2633,
+  colorText:white,
+
+ backgroundFundoBoxe:#04c801,
+ backgroundFundoBoxe2:#047a02,
+
+ backgroundFundoPage1:rgb(23, 23, 23),
+ backgroundFundoPage2:rgb(9, 9, 9)
+  
+);
+
+.dark-theme{
+
+    color: map-get($colors-dark-theme, primary); 
+}
+
+
+.dark-theme-background-fundo{
+
+  background-color: map-get($colors-dark-theme, backgroundFundo); 
+
+}
+
+.dark-theme-boxes{
+
+  background:linear-gradient(to bottom, map-get($colors-dark-theme, backgroundFundoBoxe),map-get($colors-dark-theme, backgroundFundoBoxe2) );
+
+}
+
+// .hover-dark-theme:hover{
+
+//   color: map-get($colors-dark-theme, primary); 
+  
+
+// }
+
+.backgroundFundoPage-theme-dark{
+
+  background:linear-gradient(to bottom, map-get($colors-dark-theme, backgroundFundoPage1),map-get($colors-dark-theme, backgroundFundoPage2) );
+
+}
+
+.texto-dark{
+  color: map-get($colors-dark-theme, colorText);
+}

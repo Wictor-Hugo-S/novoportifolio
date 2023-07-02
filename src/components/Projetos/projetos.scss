@@ -1,0 +1,223 @@
+@import '../../estilosperosnalizados/rootstyles.scss';
+
+
+main.projetos {
+    width: 100%;
+    padding-top: 100px;
+
+    .container-projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px 0;
+
+
+        .title-projetos {
+            padding-bottom: 30px;
+            text-align: center;
+
+
+            h1 {
+
+                font-size: 55px;
+                text-align: center;
+                margin-bottom: 17px;
+
+            }
+
+            span {
+                font-family: map-get(map-get($font-styles, large), font-family);
+                font-size: map-get(map-get($font-styles, large), font-size);
+
+
+            }
+
+        }
+
+        .boxes-inicio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            gap: 120px 35px;
+            flex-wrap: wrap;
+
+
+
+        }
+
+        .boxes-projetos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+
+            width: calc(27.50%);
+
+            max-width: 100%;
+            border-radius: 20px 20px 20px 20px;
+
+
+
+
+
+
+
+            .wrapper-projetos {
+                display: flex;
+                flex-direction: column;
+                gap: 30px 0;
+
+
+            }
+
+            .imagem-projetos {
+
+
+
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                    border-radius: 5% 5% 0 0;
+                    overflow: hidden;
+                }
+            }
+
+            .itens-projetos {
+                padding: 0 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px 0;
+
+                .itens-title-projetos {
+                    margin-bottom: 10px;
+
+
+                    h1 {
+
+                        font-size: 25px;
+                        color: white;
+                    }
+
+                }
+
+                .descricao-projetos span {
+
+                    text-align: ju;
+                    color: white;
+
+                }
+
+                .habildades-projetos p {
+                    font-size: 14px;
+                    color: white;
+                }
+
+
+            }
+
+            .buttons-projetos {
+                padding: 0 20px 15px 20px;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 7px;
+
+                }
+
+
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    main.projetos {
+
+
+        .boxes-inicio {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 60px 35px;
+
+            .boxes-projetos {
+                display: flex;
+                border: none;
+                flex-wrap: wrap;
+
+
+                width: calc(40.33%);
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    main.projetos {
+
+
+        .boxes-inicio {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 60px 35px;
+
+            .boxes-projetos {
+                display: flex;
+                border: none;
+                flex-wrap: wrap;
+
+
+                width: calc(60%);
+
+
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    main.projetos {
+
+
+        .boxes-inicio {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 60px 35px;
+
+            .boxes-projetos {
+                display: flex;
+                border: none;
+                flex-wrap: wrap;
+
+
+                width: calc(80%);
+
+
+            }
+        }
+    }
+}

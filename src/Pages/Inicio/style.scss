@@ -1,0 +1,125 @@
+@import '../../estilosperosnalizados/rootstyles.scss';
+
+
+
+section.descricao-sobre {
+
+   padding-top: 50px;
+   
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    .container-descricao-sobre {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .wrapper-descricao-sobre {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 0 3%;
+        }
+
+        .texto-descricao-sobre {
+            
+            display: flex;
+            flex-direction: column;
+
+            .teste-texto{
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                
+            }
+
+            span {
+                font-family: map-get(map-get($font-styles, large), font-family);
+                    font-size: map-get(map-get($font-styles, large), font-size);
+
+            }
+        }
+
+        .image-descricao-sobre {}
+
+        .image-descricao-sobre img {
+          
+           
+        
+
+            overflow: hidden;
+
+            border-width: 6px;
+            border-color: rgb(120, 120, 120, 0.6);
+            background-origin: padding-box;
+            border-style: solid;
+          
+            width: 300px ;
+            height: 300px ;
+            border-radius: 100% ;
+            
+            
+        }
+
+    }
+
+}
+
+
+ @media  screen and (max-width: 768px) {
+
+    section.descricao-sobre {
+
+        padding: 50px;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+    
+        .container-descricao-sobre {
+           margin-top: 80px;
+    
+    
+            .wrapper-descricao-sobre {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+            }
+    
+            .texto-descricao-sobre {
+              
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+
+                .teste-texto{
+                    justify-content: center;
+                }
+    
+                span {
+                    font-family: Verdana;
+                    font-size: 40px;
+    
+                }
+            }
+    
+            .image-descricao-sobre {}
+    
+            .image-descricao-sobre img {
+              
+              
+                
+            }
+    
+        }
+    
+    }
+    
+ }
