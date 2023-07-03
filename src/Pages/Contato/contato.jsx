@@ -4,6 +4,9 @@ import Menu from '../../components/Menu/menu'
 import './contato.scss'
 import { BackgroundContext } from "../BackgroundContext";
 
+import { BsFillTelephoneFill } from 'react-icons/bs'
+import { MdMarkEmailRead } from 'react-icons/md'
+
 import Footer from '../../components/Footer/footer'
 export default function Contato() {
 
@@ -49,6 +52,8 @@ export default function Contato() {
                         </div>
 
 
+
+
                         <form onSubmit={handleSubmit}>
                             <label className={`${backgroundFundo ? 'texto-dark' : 'texto-light'}`}
                                 htmlFor="nome"
@@ -57,7 +62,7 @@ export default function Contato() {
                             <input
                                 required
                                 type="text"
-                                
+
                                 value={nome}
                                 onChange={(e) => setNome(e.target.value)}
                                 placeholder="Nome"
@@ -70,7 +75,7 @@ export default function Contato() {
                             <input
                                 required
                                 type="text"
-                                
+
                                 value={sobreNome}
                                 onChange={(e) => setSobreNome(e.target.value)}
                                 placeholder="Sobrenome"
@@ -83,7 +88,7 @@ export default function Contato() {
                             </label>
                             <input
                                 type="email"
-                               
+
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Email"
@@ -94,7 +99,7 @@ export default function Contato() {
                                 htmlFor="mensagem">Mensagem:
                             </label>
                             <textarea
-                              
+
                                 value={mensagem}
                                 onChange={(e) => setMensagem(e.target.value)}
                                 placeholder="Digite o Assunto"
@@ -111,9 +116,11 @@ export default function Contato() {
                             </button>
                         </form>
 
-                        
-                        <div className="phone">
-                            <span> Meu telefone para contato: 55 + (81) 99764-7606</span>
+                        <div className="icons-contato">
+
+
+                            <BsFillTelephoneFill fill="orange"  /> <span>55+ (81) 99764-7606</span>
+                           
                         </div>
                     </div>
 
