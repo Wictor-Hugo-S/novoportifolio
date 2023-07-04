@@ -53,7 +53,7 @@ export default function Projetos() {
                                                 <span>{item.descricao}</span>
                                             </div>
                                             <div className='habildades-projetos'>
-                                                <p>{item.habilidades}</p>
+                                                <p>Tecnologias : {item.habilidades}</p>
                                             </div>
                                         </div>
                                         <div className='buttons-projetos'>

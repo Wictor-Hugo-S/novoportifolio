@@ -11,7 +11,7 @@ import testeImg from '../../images/testeImg.jpg'
 
 const listaImagens=[
 
-    imobiliaria,
+   
     testeImg, img2, img3, img4,img5,img6]
 
 export default listaImagens
