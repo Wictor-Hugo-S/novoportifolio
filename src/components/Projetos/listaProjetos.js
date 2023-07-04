@@ -30,8 +30,8 @@ const listaProjetos = [
         texto: 'Dentista Autônomo',
         descricao: 'Website fictício que mostra todo trabalho de um dentista e formas como ele trabalha, que facilita as pessoas a acha-ló.',
         habilidades: ' Javascript, HTML, CSS',
-        versite: 'https://sistectelecom.com.br/',
-        repositorio: 'https://github.com/Wictor-Hugo-S/novoportifolio'
+        versite: 'https://github.com/Wictor-Hugo-S/SiteDentista',
+        repositorio: 'https://github.com/Wictor-Hugo-S/SiteDentista'
     },
     {
         id: 2,
@@ -40,8 +40,8 @@ const listaProjetos = [
         texto: 'Previsão do Tempo',
         descricao: 'Website Fictício onde fazer o consumo de uma api e ao digitar sua cidade ele mostra a previsão do tempo atual e de até 3 dias.',
         habilidades: 'React, Javascript, HTML, SASS',
-        versite: 'https://sistectelecom.com.br/',
-        repositorio: 'https://github.com/Wictor-Hugo-S/novoportifolio'
+        versite: 'https://previsao-do-tempo-ebon.vercel.app/',
+        repositorio: 'https://github.com/Wictor-Hugo-S/Projeto-PrevisaoDoTempo'
       
     },
     {
@@ -53,8 +53,8 @@ const listaProjetos = [
         texto: 'Dashbord',
         descricao: 'Website fictício que o usuário pode fazer um login e cadastro e ao logar vai poder alterar sua foto, seu cadastro.',
         habilidades: 'React, Javascript, HTML, CSS, Firebase',
-        versite: 'https://sistectelecom.com.br/',
-        repositorio: 'https://github.com/Wictor-Hugo-S/novoportifolio'
+        versite: 'https://dashbord-usuario.vercel.app/',
+        repositorio: 'https://github.com/Wictor-Hugo-S/Projeto-Dashboard'
     },
     {
         id: 4,
@@ -62,8 +62,8 @@ const listaProjetos = [
         texto: 'Page Front-End',
         descricao: ' Website no qual recebi para fazer igual a um própotipo de um teste que a empresa pediu para replicar  ',
         habilidades: 'React, Javascript, HTML, SASS',
-        versite: 'https://sistectelecom.com.br/',
-        repositorio: 'https://github.com/Wictor-Hugo-S/novoportifolio'
+        versite: 'https://front-pag.vercel.app/',
+        repositorio: 'https://github.com/Wictor-Hugo-S/front-pag'
     },
     {
         id: 5,
@@ -71,8 +71,8 @@ const listaProjetos = [
         texto: 'Clone Netflix',
         descricao: 'Website fictício de um clone da página da netflix, que tinha o objetivo de testar as habilidades em Css, e Html.',
         habilidades: ' Jquery, HTML, CSS',
-        versite: 'https://sistectelecom.com.br/',
-        repositorio: 'https://github.com/Wictor-Hugo-S/novoportifolio'
+        versite: 'https://github.com/Wictor-Hugo-S/ProjetoNetflix-DIO',
+        repositorio: 'https://github.com/Wictor-Hugo-S/ProjetoNetflix-DIO'
     }
 ]
 

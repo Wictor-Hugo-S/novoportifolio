@@ -80,17 +80,11 @@
 
 
                 .icon-close:hover {
-                    background-color: #fb2f3f !important;
-                    border-radius: 50% !important;
+                  
+                   
 
 
                 }
-
-                .icon-menu-navegacao:hover {
-                    background-color: ghostwhite !important;
-
-                }
-
 
 
             }
@@ -104,11 +98,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0c2633;
+   
     width: auto;
     height: auto;
     position: fixed;
- z-index: 99;
+    z-index: 99;
 
 
     .wrapper-menu-mobile {
@@ -129,7 +123,7 @@
             transition: ease-in-out .4s;
             font-weight: bold;
             z-index: 9999;
-            color: white;
+            
 
             &:hover {
                 color: orange !important;

@@ -31,7 +31,7 @@ export default function SobreMim() {
                     </div>
                     <div className={`descricao-sobre ${backgroundFundo ? 'texto-dark' : 'texto-light'}`}>
                         <span>
-                           Olá, sou Wictor Hugo, moro na cidade de Olinda-PE. E aqui está uma breve descrição sobre mim.
+                           Olá, sou Wictor Hugo, moro na cidade de Olinda-PE. Aqui está uma breve descrição sobre mim.
                             <br></br>
                             <br></br>
                             Já criei alguns sites para provedores de internet e alguns sites fictícios onde simulava alguma situação. Atualmente estou desenvolvendo em React e possuo capacidade rápida de aprendizado.
@@ -41,6 +41,10 @@ export default function SobreMim() {
                             <br></br>
                             <br></br>
                             O que me faz amar tanto a tecnologia é o desafio de encontrar soluções eficientes e inovadoras para problemas complexos que pode ser extremamente importante para muitas pessoas..
+                            <br></br>
+                            <br></br>
+                          
+                            Estou em busca de uma oportunidade de estágio/júnior na área de desenvolvimento de software.
                         </span>
                         
                     </div>
@@ -159,7 +163,7 @@ export default function SobreMim() {
                                             </div>
 
                                             <div className='certificado-curso'>
-                                                <a href={item.verCertificado}>Ver Certificado</a>
+                                                <a href={item.verCertificado} target='blank'>Ver Certificado</a>
                                             </div>
 
                                             <div className='quantidade-curso'>

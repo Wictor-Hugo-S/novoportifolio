@@ -115,7 +115,8 @@ const Menu = () => {
                                         <div >
                                             <NavLink
                                                 key={index}
-                                                className={`links ${backgroundFundo ? 'dark-theme hover-dark-theme' : 'light-theme hover-ligth-theme'} `}
+                                                className={`links ${backgroundFundo ? 'dark-theme hover-dark-theme' 
+                                                : 'light-theme hover-ligth-theme'} `}
                                                 to={item.href}
                                                 target={item.blank}
                                                 activeClassName='active' >
@@ -155,7 +156,9 @@ const Menu = () => {
                 </div>
 
             </nav>
-            <div className='container-menu-mobile'>
+            <div className={`container-menu-mobile 
+            ${backgroundFundo? 'dark-theme-background-fundo'
+            :'light-theme-background-fundo'}`}>
 
 
                 {handleMenu && (
@@ -166,7 +169,15 @@ const Menu = () => {
                                     <>
 
                                         <div className='links-mobile'>
-                                            <NavLink key={index} className='links-mobile' to={item.href} target={item.blank} activeClassName="active">{item.nome}</NavLink>
+                                            <NavLink key={index} 
+                                            className={`links-mobile 
+                                            ${backgroundFundo ? 
+                                                'texto-dark': 
+                                                'texto-light'}`} 
+                                            to={item.href} target={item.blank} 
+                                            activeClassName="active">
+                                                {item.nome}
+                                                </NavLink>
 
                                         </div>
 

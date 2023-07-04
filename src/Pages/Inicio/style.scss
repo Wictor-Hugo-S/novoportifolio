@@ -96,8 +96,8 @@ section.descricao-sobre {
             .texto-descricao-sobre {
               
                 text-align: center;
-                display: flex;
-                flex-direction: column;
+                
+            
 
                 .teste-texto{
                     justify-content: center;
@@ -114,6 +114,57 @@ section.descricao-sobre {
     
             .image-descricao-sobre img {
               
+              
+                
+            }
+    
+        }
+    
+    }
+    
+ }
+
+
+
+
+ @media  screen and (max-width: 468px) {
+
+    section.descricao-sobre {
+
+     
+    
+        .container-descricao-sobre {
+         
+    
+            .wrapper-descricao-sobre {
+             
+            }
+    
+            .texto-descricao-sobre {
+              
+                text-align: center;
+                span{
+                   
+                    font-size: 35px !important;
+                }
+            
+
+               
+    
+                span {
+                    font-family: Verdana;
+                    font-size: 40px;
+    
+                }
+            }
+    
+            .image-descricao-sobre {}
+    
+            .image-descricao-sobre img {
+              
+
+                width: 250px;
+                height: 250px;
               
                 
             }
