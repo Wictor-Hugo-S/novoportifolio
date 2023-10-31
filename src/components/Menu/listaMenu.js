@@ -31,7 +31,7 @@ const listaMenu = [
     {
        
         nome: 'Baixar CV',
-        href: 'https://drive.google.com/file/d/1F_QmlaP8TO6sYlHPyXz9VFQiaBjijT8u/view?usp=sharing',
+        href: 'https://drive.google.com/file/d/1bcT6mb0gUr2l594OPP8VoCa8XF0ECkBt/view?usp=sharing',
         blank:'blank'
         
     }

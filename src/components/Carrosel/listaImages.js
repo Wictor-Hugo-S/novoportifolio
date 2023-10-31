@@ -7,11 +7,11 @@ import img4 from '../../images/img4.jpg'
 import img5 from '../../images/img5.png'
 import img6 from '../../images/img6.png'
 import testeImg from '../../images/testeImg.jpg'
-
+import projetoimgpdt from '../../images/projetoimgpdt.jpg'
 
 const listaImagens=[
 
    
-    testeImg, img2, img3, img4,img5,img6]
+    testeImg,projetoimgpdt, img2, img3, img4,img5,img6]
 
 export default listaImagens

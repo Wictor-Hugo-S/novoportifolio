@@ -8,8 +8,9 @@ import img4 from '../../images/img4.jpg'
 import img5 from '../../images/img5.png'
 import img6 from '../../images/img6.png'
 import testeImg from '../../images/testeImg.jpg'
+import projetoimgpdt from '../../images/projetoimgpdt.jpg'
 
-const image=[imobiliaria,img1,img2,img3,img4,img5,img6,testeImg]
+const image=[imobiliaria,img1,img2,img3,img4,img5,img6,testeImg,projetoimgpdt]
 
 const listaProjetos = [
 
@@ -23,8 +24,19 @@ const listaProjetos = [
         versite: 'https://sistectelecom.com.br/',
         repositorio: 'https://github.com/Wictor-Hugo-S/novoportifolio'
     },
+
     {
         id: 1,
+        imagem: image[8],
+        linkImage:'',
+        texto: 'PDT-Olinda',
+        descricao: 'Website feito para um partido chamado PDT-Olinda, no qual tem o objetivo de apresentar os componentes da comissão do partido e algumas notícias para o público. ',
+        habilidades: 'React, Javascript, HTML, SASS',
+        versite: 'https://pdtolinda.org/',
+        repositorio: 'https://github.com/Wictor-Hugo-S/novoportifolio'
+    },
+    {
+        id: 2,
         imagem: image[4],
         linkImage:'',
         texto: 'Dentista Autônomo',
@@ -34,7 +46,7 @@ const listaProjetos = [
         repositorio: 'https://github.com/Wictor-Hugo-S/SiteDentista'
     },
     {
-        id: 2,
+        id: 3,
         imagem: image[3],
         linkImage:'',
         texto: 'Previsão do Tempo',
@@ -47,7 +59,7 @@ const listaProjetos = [
     {
       
 
-        id: 3,
+        id: 4,
         imagem: image[6],
         linkImage:'',
         texto: 'Dashbord',
@@ -57,19 +69,19 @@ const listaProjetos = [
         repositorio: 'https://github.com/Wictor-Hugo-S/Projeto-Dashboard'
     },
     {
-        id: 4,
+        id: 5,
         imagem: image[2],
         texto: 'Page Front-End',
-        descricao: ' Website no qual recebi para fazer igual a um própotipo de um teste que a empresa pediu para replicar  ',
+        descricao: ' Website no qual recebi para fazer igual a um própotipo de um teste que a empresa pediu para replicar.  ',
         habilidades: 'React, Javascript, HTML, SASS',
         versite: 'https://front-pag.vercel.app/',
         repositorio: 'https://github.com/Wictor-Hugo-S/front-pag'
     },
     {
-        id: 5,
+        id: 6,
         imagem: image[5],
         texto: 'Clone Netflix',
-        descricao: 'Website fictício de um clone da página da netflix, que tinha o objetivo de testar as habilidades em Css, e Html.',
+        descricao: 'Website fictício de um clone da página da netflix, que tinha o objetivo de testar as habilidades em CSS, e HTML.',
         habilidades: ' Jquery, HTML, CSS',
         versite: 'https://github.com/Wictor-Hugo-S/ProjetoNetflix-DIO',
         repositorio: 'https://github.com/Wictor-Hugo-S/ProjetoNetflix-DIO'
