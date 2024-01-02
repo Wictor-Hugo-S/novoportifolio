@@ -8,7 +8,7 @@ const listaFormacao=[
         instituicao:'Wyden UniFBV',
         curso:'Ánalise e Desenvolvimento de Sistemas' ,
         descricao:' 2º Período ',
-        modalidade:'EAD-Online',
+        modalidade:'EAD',
         situacao:'Cursando',
         ano:'Junho 2023 - Dezembro 2025 '
 
